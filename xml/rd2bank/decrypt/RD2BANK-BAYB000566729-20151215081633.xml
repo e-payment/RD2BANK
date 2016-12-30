@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><TAXDATA>
+    <FormCode>P.N.D.1</FormCode>
+    <RefNo>P0103185298</RefNo>
+    <ExpDate>20151215</ExpDate>
+    <RDTransNo>20151215081633P0103185298000566729</RDTransNo>
+    <Brano>0</Brano>
+    <TaxMonth>112015</TaxMonth>
+    <RespURL>https://nidtest.rd.go.th/BOAPP_RDINET/jsp/taxPayment/xBank2Rd_direct.jsp</RespURL>
+    <RefDate>20151215081633</RefDate>
+    <BackURL>https://nidtest.rd.go.th/BOAPP_RDINET/jsp/taxPayment/bank2rdPayment_redirect.jsp</BackURL>
+    <DataKey>NA</DataKey>
+    <Nid>1111111111111</Nid>
+    <Mid>4101030300</Mid>
+    <Amount>468595.00</Amount>
+    <PaymentLine>EPY</PaymentLine>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>ZR8c8e0eMQl4B1nz+lb1J3b266U=</DigestValue></Reference></SignedInfo><SignatureValue>UeCH19IpXhe0xXWVM2NLikehARljOah3T/byILhV9zp7CgDL0GasN6JavKax+x2bEZq7a7VOJaEQ
+g4nDIgMBrMiEhlwr9/bcSey1EjkVSxe4c6/bbjrtu7ito0wPpX42vzgYCtsnThMRUi6NvoXHUtyJ
+DOKfTBzKERAQHfjrRV0z4WNmIfBozEuTkXvzCdcD1MC1JfwS18PfpdBmKn9qxRAYMeQv2R8caDZ8
+sVDQp4jg6zCH/084XE/ZrMhws4dBM7NmDfCl4HK31Q7dRNBNF0tiTs1KbS3sYc9/yWutuJjPFuR/
+e0bA/wHq6s61Rny5f+vJpua7MM/jkrtuD6ta4w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=THE REVENUE DEPARTMENT (EPA),O=0994000158441,C=TH</X509SubjectName><X509Certificate>MIIFrTCCA5WgAwIBAgIETczNRjANBgkqhkiG9w0BAQUFADBUMQswCQYDVQQGEwJUSDEoMCYGA1UE
+ChMfVGhhaSBEaWdpdGFsIElEIENvbXBhbnkgTGltaXRlZDEbMBkGA1UEAxMSVGhhaSBEaWdpdGFs
+IElEIENBMB4XDTE1MTAwMjA4MzkwOFoXDTE4MTAwMjA5MDkwOFowTDELMAkGA1UEBhMCVEgxFjAU
+BgNVBAoTDTA5OTQwMDAxNTg0NDExJTAjBgNVBAMTHFRIRSBSRVZFTlVFIERFUEFSVE1FTlQgKEVQ
+QSkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCumMRMwOxfnpBetDxbX1lzoGmpmfM9
+ECP3ouCIlifnDv93pHe8l7njxfUGUSLuhwregmpYYohJoLYHzNTEGwiQLY/plsbBj8jf1WLOf+IT
+YFtJJulR2zuuSJL4MqiJ0DPUnZgL7/mn56pvy2xSLtnaUxxufA1dmMTDTWkgW/YQukQ+XrMQiVnZ
+T4oB3+qTjcVrQ6KmnILuBTQUM6SaQA0hFwUNFX0UpyfyEZpfKCxkPSiVHbcPLP6eIuepgZS7GANB
+q2zVXVAALQOsHQ5aqysmJlGRii7rGLMUb5eszp7tDsr0mLj3ZsOW9CiZa7PunHQoyH1ArKsDrGu/
+Izv0BTTzAgMBAAGjggGNMIIBiTAOBgNVHQ8BAf8EBAMCBPAwDAYDVR0TAQH/BAIwADCBmAYDVR0g
+BIGQMIGNMIGKBgsrBgEEAYHbUQMBATB7MCgGCCsGAQUFBwIBFhxodHRwOi8vd3d3LnRoYWlkaWdp
+dGFsaWQuY29tME8GCCsGAQUFBwICMEMaQVRoaXMgY2VydGlmaWNhdGUgaXMgYXBwbGljYWJsZSB0
+byB0aGUgcmVsZXZhbnQgQ2VydGlmaWNhdGUgUG9saWN5MIGsBgNVHR8EgaQwgaEwMqAwoC6GLGh0
+dHA6Ly93d3cudGhhaWRpZ2l0YWxpZC5jb20vY2RwL3RkaWRfY2EuY3JsMGugaaBnpGUwYzELMAkG
+A1UEBhMCVEgxKDAmBgNVBAoTH1RoYWkgRGlnaXRhbCBJRCBDb21wYW55IExpbWl0ZWQxGzAZBgNV
+BAMTElRoYWkgRGlnaXRhbCBJRCBDQTENMAsGA1UEAxMEQ1JMOTAfBgNVHSMEGDAWgBQTiRHuUe8A
+MiQhOJcW/ao0wmqJZzANBgkqhkiG9w0BAQUFAAOCAgEAnqg9rVG9tVVHx2h+ytusHUitVP+O39Vs
+d+eo8IsHLRgdYZ7j/MRJGtquXqDCQ8HzW8liAtXLzFGYiZ4aUIxZ7qicnRJ8spIWxIoEJwVg4XSw
+qX9Y+f5SVczZvelJOz+fomCdhM7KzzsLu315kHgkl5OWaQaCC0uc60jJ+qcD9awseOt1uSaLPYJ4
+LOPxwBE/NB7JvjRfJw0Yqzs/lnfCUlVXcnM5lWAy1lXcxPDCEqIRkcpVetoj/2NO9fADRe58MtiZ
+FsqNcPBtR8K+m3XHjWMlPoF2GyqUCwGcbKd/hUt3mrOe6pYX/GnMWagwXmoffF+as7DRBRrggyHD
+36Rgjf67f6eXjGl+BB3DtH+fo4F0IMk4m0oezMmZSrXJVAgH9a2kqRL4pFiQ5x53XGH2vNbrbHfz
+EdKijBixUnKnk48TI1AROcvfv4hK/65vfJqmuPMz8544jxTDqU9EJjCfVOfgROaCWZn10P9ZnrwF
+jqOQDIERK2SkmmUi34VmMSeA3Y9tOiP7t9whw/7p8Yx5rnxhkcKi/USBAPNnkBORU8KgL8lqQy+w
+qzscQ+/XGzQKUkqDVgupXPpvmPqY9KROaY0Pe3VWKCy4XfLAr/WKuJdw/20CDnvT2O+3kamuyRO6
+8WzqidRccW/65u+ATHlZzsw+rEfUXiCbdk4FHotjBqo=</X509Certificate></X509Data></KeyInfo></Signature></TAXDATA>

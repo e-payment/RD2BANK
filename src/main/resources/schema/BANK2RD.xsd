@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:element name="TAXDATA">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="BankCode"/>
+				<xs:element ref="RDTransNo"/>
+				<xs:element ref="RefNo"/>
+				<xs:element ref="Nid"/>
+				<xs:element ref="Brano"/>
+				<xs:element ref="PaymentStatus"/>
+				<xs:element ref="Amount"/>
+				<xs:element ref="TransDate"/>
+				<xs:element ref="RefDate" minOccurs="0"/>
+				<xs:element ref="ExpDate" minOccurs="0"/>
+				<xs:element ref="PaymentLine" minOccurs="0"/>
+				<xs:element ref="TransNo" minOccurs="0"/>
+				<xs:element ref="AuthCode" minOccurs="0"/>
+				<xs:element ref="ReturnCode" minOccurs="0"/>
+				<xs:element ref="ReturnMsg" minOccurs="0"/>
+				<xs:element ref="DataKey"/>
+				<xs:element ref="SendMethod"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="BankCode">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="RDTransNo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="34"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="RefNo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="11"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Nid">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="10"/>
+				<xs:maxLength value="13"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Brano">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:minLength value="1"/>
+				<xs:maxLength value="5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="PaymentStatus">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Amount">
+		<xs:simpleType>
+			<xs:restriction base="xs:decimal">
+				<xs:fractionDigits value="2"/>
+				<xs:totalDigits value="16"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="TransDate">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="14"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="RefDate">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="14"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ExpDate">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="8"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="PaymentLine">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="3"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="TransNo" type="xs:string"/>
+	<xs:element name="AuthCode" type="xs:string"/>
+	<xs:element name="ReturnCode" type="xs:string"/>
+	<xs:element name="ReturnMsg" type="xs:string"/>
+	<xs:element name="DataKey">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="128"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="SendMethod">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:length value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

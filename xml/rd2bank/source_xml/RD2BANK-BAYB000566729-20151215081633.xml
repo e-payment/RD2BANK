@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TAXDATA>
+    <FormCode>P.N.D.1</FormCode>
+    <RefNo>P0103185298</RefNo>
+    <ExpDate>20151215</ExpDate>
+    <RDTransNo>20151215081633P0103185298000566729</RDTransNo>
+    <Brano>0</Brano>
+    <TaxMonth>112015</TaxMonth>
+    <RespURL>https://nidtest.rd.go.th/BOAPP_RDINET/jsp/taxPayment/xBank2Rd_direct.jsp</RespURL>
+    <RefDate>20151215081633</RefDate>
+    <BackURL>https://nidtest.rd.go.th/BOAPP_RDINET/jsp/taxPayment/bank2rdPayment_redirect.jsp</BackURL>
+    <DataKey>NA</DataKey>
+    <Nid>1111111111111</Nid>
+    <Mid>4101030300</Mid>
+    <Amount>468595.00</Amount>
+    <PaymentLine>EPY</PaymentLine>
+</TAXDATA>
